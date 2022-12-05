@@ -3,7 +3,7 @@ body {background-color: rgb(255, 248, 239);}
      width: 1800px;  margin-left: auto;
      margin-right: auto;
     }
-#ülariba {background-color:#5382a1; width: 100%; margin-left: auto;
+#ülariba {background-color:#5382a1; width: 1750px; margin-left: auto;
     margin-right: auto;
      
 }
@@ -21,14 +21,17 @@ a:active { text-decoration: none; }
 h1 {
     font-size: xx-large;
     color: #216fa3;
+    font-family: 'Quicksand', sans-serif;
 }
 
 p {
     color: #0d2b40;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h2 {
     color: #0d2b40;
+    font-family: 'Quicksand', sans-serif;
 }
 
 img {
