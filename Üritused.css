@@ -11,7 +11,4 @@ h1 {
     color: #216fa3;
 }
 
-img {
-    max-width: 50%;
-    height: auto;
-}
+image {size: small;}
