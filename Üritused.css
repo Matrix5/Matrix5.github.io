@@ -1,8 +1,17 @@
-
+#ülariba {background-color:#5382a1; width: 100%;
+	 
+}
+#ülariba, h3{display: inline-block; text-align: center; font-size:xx-large;
+}
+#ülariba, h3, a {color: #f89820; padding: 1px 25px 1px 25px;}
 
 h1 {
     font-size: xx-large;
     text-align: center;
+    color: #216fa3;
 }
 
-image {size: small;}
+img {
+    max-width: 50%;
+    height: auto;
+}
