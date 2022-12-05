@@ -3,7 +3,7 @@ body {background-color: rgb(255, 248, 239);}
      width: 1800px;  margin-left: auto;
      margin-right: auto;
     }
-#ülariba {background-color:#5382a1; width: 1750px; margin-left: auto;
+#ülariba {background-color:#5382a1; width: 100%; margin-left: auto;
     margin-right: auto;
      
 }
@@ -32,13 +32,13 @@ h2 {
     color: #0d2b40;
 }
 
-#1 img {
-    width: 50%;
-    float: right;
-
+img {
+    max-width: 500px;
+    max-height: 500px;
+    width: 500px;
+    height: 500px;
 }
 
-#2 img {
-    width: 50%;
-    float: right;
+img:hover {
+    transform: scaleX(-1);
 }
