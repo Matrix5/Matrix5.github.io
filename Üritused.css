@@ -23,3 +23,22 @@ h1 {
     text-align: center;
     color: #216fa3;
 }
+
+p {
+    color: #0d2b40;
+}
+
+h2 {
+    color: #0d2b40;
+}
+
+#1 img {
+    width: 50%;
+    float: right;
+
+}
+
+#2 img {
+    width: 50%;
+    float: right;
+}
