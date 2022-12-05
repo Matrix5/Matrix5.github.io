@@ -16,6 +16,23 @@ width: 1800px; font-size: xx-large;}
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
-a:active { text-decoration: none; }    
+a:active { text-decoration: none; }   
 
+.sisu { position: relative; 
+    width: 400px;
+    
+}
+.pilt_ise {display: block;
+    width: 100%;
+
+}
+.pilt_kate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(83,130,161, 0.6);
+    color: aliceblue;
+}
 
