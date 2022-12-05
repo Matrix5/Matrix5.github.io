@@ -5,15 +5,6 @@
         <link rel="stylesheet" type="text/css" href="usk.css" />
         
 
-        <script type="text/javascript"src="./usk.js">
-            THREE.ShapeUtils.triangulateShape = (function () {
-                    var pnlTriangulator = new PNLTRI.Triangulator();
-                    return function triangulateShape(contour, holes) {
-                        return pnlTriangulator.triangulate_polygon([contour].concat(holes));
-                    };
-                })();
-        </script>
-
     </head>
     <body>
         <div id="ümbris">
@@ -36,7 +27,19 @@
                     </p>
                     
             </div>
-        
+            <script src="usk.js">
+                THREE.ShapeUtils.triangulateShape = (function () {
+                        var pnlTriangulator = new PNLTRI.Triangulator();
+                        return function triangulateShape(contour, holes) {
+                            return pnlTriangulator.triangulate_polygon([contour].concat(holes));
+                        };
+                    })();
+            </script>
+            <div id="three-container"></div>
+
+            <div id="instructions">
+              click and drag to control the animation
+            </div>
             <div id="jalus">
                <h4>Autoriõigused &copy; 2022 Javanistid MTÜ</h4>  
             </div>
