@@ -1,16 +1,16 @@
 body {background-color: rgb(255, 248, 239);}
 #ümbris {background-color: rgb(255, 245, 232);
-     width: 800px;  margin-left: auto;
+     width: 1800px;  margin-left: auto;
      margin-right: auto;
     }
-#ülariba {background-color:#5382a1; width: 780px;
+#ülariba {background-color:#5382a1; width: 1750px;
      
 }
-#ülariba, h3{display: inline-block; text-align: center; font-size: larger;
+#ülariba, h3{display: inline-block; text-align: center; font-size:xx-large;
 }
-#ülariba, h3, a {color: #f89820; padding: 5px 10px 5px 10px;}
+#ülariba, h3, a {color: #f89820; padding: 1px 25px 1px 25px;}
 #pealkiri {clear: both; text-align:center;
-width: 800px; font-size: larger;}
+width: 1800px; font-size: larger;}
 #pealkiri, h1 {color:#216fa3;}
 
 a:link { text-decoration: none; }
