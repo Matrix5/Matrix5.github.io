@@ -19,6 +19,6 @@ a:active { text-decoration: none; }
     #pealkiri, h1 {color:#216fa3;}
     
 img {
-    max-width: 100%;
+    max-width: 500px;
     max-height: auto;
 }
