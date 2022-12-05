@@ -33,6 +33,32 @@ a:active { text-decoration: none; }
     width: 100%;
     height: 100%;
     background: rgba(83,130,161, 0.6);
-    color: aliceblue;
+    color: aliceblue;z
+    font-family: 'Quicksand', sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
 }
+.pilt_kate > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.pilt_kate:hover {
+    opacity: 1;
+}
+.pilt_kate:hover > * {
+    transform:translateY(0) ;
+}
+.pilt_pealkiri {
+    font-size: 2em;
+    font-weight: bold;
 
+}
+.pilt_tekst {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+
+}
