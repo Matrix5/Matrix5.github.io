@@ -9,7 +9,7 @@ body {background-color: rgb(255, 248, 239);}
 }
 #ülariba, h3{display: inline-block; text-align: center; font-size:xx-large;
 }
-#ülariba, h3, a {color: #f89820; padding: 1px 25px 1px 25px;}
+#ülariba, h3, a {color: #f89820; padding: 1px 25px 1px 25px;font-family: 'Quicksand', sans-serif;}
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
@@ -17,14 +17,21 @@ a:active { text-decoration: none; }
 #pealkiri {clear: both; text-align:center;
     width: 1800px; font-size: xx-large;
 font-family: 'Quicksand', sans-serif;}
-    #pealkiri, h1 {color:#216fa3;}
+#pealkiri {color:#216fa3;}
     
 img {
     max-width: 500px;
     max-height: auto;
 }
-p {
+#lühikirjeldus {
     font-family: 'quicksand', sans-serif;
-    font-size: larger;
+    font-size: x-large;
     color:#0d2b40;
+}
+#jalus {text-align: center;
+    background-color:#0d2b40;
+    color: aliceblue;
+    padding: 0.5px 0.5px 0.5px 0.5px;
+
+
 }

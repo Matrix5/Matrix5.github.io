@@ -9,7 +9,7 @@ body {background-color: rgb(255, 248, 239);}
 }
 #ülariba, h3{display: inline-block; text-align: center; font-size:xx-large;
 }
-#ülariba, h3, a {color: #f89820; padding: 1px 25px 1px 25px;}
+#ülariba, h3, a {color: #f89820; padding: 1px 25px 1px 25px;font-family: 'Quicksand', sans-serif;}
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
@@ -25,14 +25,14 @@ a:active { text-decoration: none; }
 p {
     color: #0d2b40;
     font-family: 'Quicksand', sans-serif;
-    font-size: larger;
+    font-size: x-large;
     
 }
 
 h2 {
     color: #0d2b40;
     font-family: 'Quicksand', sans-serif;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 img {
@@ -45,4 +45,11 @@ img {
 img:hover {
     transform: scaleX(-1);
 }
-#sissejuhatus p {text-align: center;}
+#sissejuhatus p {text-align: center;
+font-size: xx-large;}
+#jalus {text-align: center;
+    background-color:#0d2b40;
+    color: aliceblue;
+    padding: 0.5px 0.5px 0.5px 0.5px;
+
+}
