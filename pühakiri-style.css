@@ -10,7 +10,7 @@ body {background-color: rgb(255, 248, 239);}
 }
 #ülariba, h3, a {color: #f89820; padding: 1px 25px 1px 25px;}
 #pealkiri {clear: both; text-align:center;
-width: 1800px; font-size: larger;}
+width: 1800px; font-size: xx-large;}
 #pealkiri, h1 {color:#216fa3;}
 
 a:link { text-decoration: none; }
