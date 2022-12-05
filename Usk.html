@@ -3,6 +3,16 @@
     <head>
         <title>Meist</title>
         <link rel="stylesheet" type="text/css" href="usk.css" />
+        
+
+        <script type="text/javascript"src="./usk.js">
+            THREE.ShapeUtils.triangulateShape = (function () {
+                    var pnlTriangulator = new PNLTRI.Triangulator();
+                    return function triangulateShape(contour, holes) {
+                        return pnlTriangulator.triangulate_polygon([contour].concat(holes));
+                    };
+                })();
+        </script>
 
     </head>
     <body>
