@@ -15,7 +15,8 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }   
 #pealkiri {clear: both; text-align:center;
-    width: 1800px; font-size: xx-large;}
+    width: 1800px; font-size: xx-large;
+font-family: 'Quicksand', sans-serif;}
     #pealkiri, h1 {color:#216fa3;}
     
 img {
