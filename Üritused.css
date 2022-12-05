@@ -32,20 +32,13 @@ h2 {
     color: #0d2b40;
 }
 
-#1, img {
-    max-height: 100px;
-    width: auto;
-    float: right;
-
+img {
+    max-width: 500px;
+    max-height: 500px;
+    width: 500px;
+    height: 500px;
 }
 
-#2, img {
-    max-width: 100px;
-    height: auto;
-    float: right;
-
-}
-
-#2, img:hover {
+img:hover {
     transform: scaleX(-1);
 }
