@@ -1,0 +1,16 @@
+body {background-color: rgb(255, 248, 239);}
+#ümbris {background-color: rgb(255, 245, 232);
+     width: 1800px;  margin-left: auto;
+     margin-right: auto;
+    }
+#ülariba {background-color:#5382a1; width: 1750px; margin-left: auto;
+    margin-right: auto;
+     
+}
+#ülariba, h3{display: inline-block; text-align: center; font-size:xx-large;
+}
+#ülariba, h3, a {color: #f89820; padding: 1px 25px 1px 25px;}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }    
