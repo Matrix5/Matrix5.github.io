@@ -22,3 +22,8 @@ img {
     max-width: 500px;
     max-height: auto;
 }
+p {
+    font-family: 'quicksand', sans-serif;
+    font-size: larger;
+    color:#0d2b40;
+}

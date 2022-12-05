@@ -22,16 +22,20 @@ h1 {
     font-size: xx-large;
     color: #216fa3;
     font-family: 'Quicksand', sans-serif;
+    text-align: center;
 }
 
 p {
     color: #0d2b40;
     font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+    
 }
 
 h2 {
     color: #0d2b40;
     font-family: 'Quicksand', sans-serif;
+    font-size: x-large;
 }
 
 img {
@@ -44,3 +48,4 @@ img {
 img:hover {
     transform: scaleX(-1);
 }
+#sissejuhatus, p {text-align: center;}
