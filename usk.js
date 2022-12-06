@@ -6,3 +6,4 @@ anim.addEventListener('click',function(e) {             document.querySelector('
     document.querySelector('.yellow').classList.toggle('yellow-expand');
     document.querySelector('.blue').classList.toggle('blue-expand');
 })
+// https://www.sliderrevolution.com/design/cool-javascript-animations/ Yogini Bende
