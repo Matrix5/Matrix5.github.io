@@ -1,4 +1,6 @@
-
+body {
+    background-color:#0d2b40 ;
+}
 
 .container {
     width: 500px;
@@ -9,64 +11,64 @@
     overflow: hidden;
 }
 
-.red {
+.orange_ülemine {
     width: 420px;
     height: 100px;
-    background: #d35400;
+    background: #f89820;
     position: relative;
     left: 400px;
     transition: transform 1.8s ease-in-out;
 }
 
-.red-expand {
+.orange_ülemine-expand {
     transform: translateX(-840px);
 }
 
-.green {
+.sinine_ülemine {
     width: 100px;
     height: 420px;
     position: relative;
     top: -420px;
-    background: #2ecc71;
+    background: #5382a1;
     transition: transform 1.8s ease-in-out;
 }
 
-.green-expand {
+.sinine_ülemine-expand {
     transform: translateY(840px);
 }
 
-.yellow {
+.orange_alumine {
     width: 420px;
     height: 100px;
-    background: #f1c40f;
+    background: #f89820;
     position: relative;
     top: -120px;
     left: -320px;
     transition: transform 1.8s ease-in-out;
 }
 
-.yellow-expand {
+.orange_alumine-expand {
     transform: translateX(840px);
 }
 
-.blue {
+.sinine_alumine {
     width: 100px;
     height: 420px;
-    background: #3498db;
+    background:#5382a1;
     position: relative;
     top: -220px;
     left: 400px;
     transition: transform 1.8s ease-in-out;
 }
 
-.blue-expand {
+.sinine_alumine-expand {
     transform: translateY(-840px);
 }
 
 .text {
     width: 280px;
     height: 280px;
-    border: 2px solid #999;
+    border: 2px solid rgb(255, 248, 239);
     border-radius: 5px;
     position: relative;
     top: -930px;
@@ -79,14 +81,20 @@ hr {
     width: 70%;
 }
 
-.click-btn {
+a.nupp {
     padding: 15px;
     border: none;
-    background-color: #4FC3F7;
+    background-color: #0d2b40;
     color: #fff;
     font-weight: 600;
     margin: 20px;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px #dedede;
+    box-shadow: 1px 1px 1px 1px #5a83a1;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
 }
 
