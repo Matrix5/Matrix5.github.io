@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>test</title>
+   <link rel="stylesheet" type="text/css" href="usk.css" />
+</head>
+<body>
+    
+
+
+    
+
+<script src="usk.js">
+    THREE.ShapeUtils.triangulateShape = (function () {
+            var pnlTriangulator = new PNLTRI.Triangulator();
+            return function triangulateShape(contour, holes) {
+                return pnlTriangulator.triangulate_polygon([contour].concat(holes));
+            };
+        })();
+  </script>
+  
+  <div id="three-container"></div>
+  
+  <div id="instructions">
+    click and drag to control the animation
+  </div>
+  
+  
+</body>
+
+
+
+</html>
