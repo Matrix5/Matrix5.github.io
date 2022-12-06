@@ -1,17 +1,15 @@
-body {
-    background-color:#0d2b40 ;
-}
+body {background-color: #0d2b40;}
 
 .container {
     width: 500px;
     height: 500px;
-    background: #f9f9f9;
+    background: rgb(255, 245, 232);
     margin: 10px auto;
     font-family: verdana;
     overflow: hidden;
 }
 
-.orange_ülemine {
+.red {
     width: 420px;
     height: 100px;
     background: #f89820;
@@ -20,24 +18,24 @@ body {
     transition: transform 1.8s ease-in-out;
 }
 
-.orange_ülemine-expand {
+.red-expand {
     transform: translateX(-840px);
 }
 
-.sinine_ülemine {
+.green {
     width: 100px;
     height: 420px;
     position: relative;
     top: -420px;
-    background: #5382a1;
+    background: #216fa3;
     transition: transform 1.8s ease-in-out;
 }
 
-.sinine_ülemine-expand {
+.green-expand {
     transform: translateY(840px);
 }
 
-.orange_alumine {
+.yellow {
     width: 420px;
     height: 100px;
     background: #f89820;
@@ -47,28 +45,28 @@ body {
     transition: transform 1.8s ease-in-out;
 }
 
-.orange_alumine-expand {
+.yellow-expand {
     transform: translateX(840px);
 }
 
-.sinine_alumine {
+.blue {
     width: 100px;
     height: 420px;
-    background:#5382a1;
+    background: #216fa3;
     position: relative;
     top: -220px;
     left: 400px;
     transition: transform 1.8s ease-in-out;
 }
 
-.sinine_alumine-expand {
+.blue-expand {
     transform: translateY(-840px);
 }
 
 .text {
     width: 280px;
     height: 280px;
-    border: 2px solid rgb(255, 248, 239);
+    border: 2px solid #216fa3;
     border-radius: 5px;
     position: relative;
     top: -930px;
@@ -82,19 +80,20 @@ hr {
 }
 
 a.nupp {
+    
     padding: 15px;
     border: none;
-    background-color: #0d2b40;
+    background-color: #216fa3;
     color: #fff;
     font-weight: 600;
     margin: 20px;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px #5a83a1;
+    box-shadow: 1px 1px 1px 1px #7aa7c5;
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
 
     text-decoration: none;
-    color: initial;
+    color: aliceblue;
 }
-
+h2 {color: #0d2b40;}

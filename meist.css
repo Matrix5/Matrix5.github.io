@@ -27,6 +27,9 @@ img {
     font-family: 'quicksand', sans-serif;
     font-size: x-large;
     color:#0d2b40;
+    text-align: center;
+    
+    
 }
 #jalus {text-align: center;
     background-color:#0d2b40;
@@ -34,13 +37,15 @@ img {
     padding: 0.5px 0.5px 0.5px 0.5px;
 
 }
-#instructions {
-    position: absolute;
-    color: #666;
-    bottom: 0;
-    padding-bottom: 6px;
-    font-family: sans-serif;
-    width: 100%;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 135px;
+}
+p {
+    font-family: 'quicksand', sans-serif;
+    font-size: x-large;
+    color:#0d2b40;
     text-align: center;
-    pointer-events: none;
-  }
+}
