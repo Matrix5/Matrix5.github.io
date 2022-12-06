@@ -3,14 +3,8 @@
 <head>
    <title>test</title>
    <link rel="stylesheet" type="text/css" href="test.css" />
-</head>
-<body>
-    
-
-
-    
-
-<script src="usk.js">
+   <script type="text/javascript" src="usk.js"></script>
+<script>
     THREE.ShapeUtils.triangulateShape = (function () {
             var pnlTriangulator = new PNLTRI.Triangulator();
             return function triangulateShape(contour, holes) {
@@ -18,6 +12,9 @@
             };
         })();
   </script>
+</head>
+<body>
+    
   
   <div id="three-container"></div>
   
